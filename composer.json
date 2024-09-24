@@ -3,7 +3,7 @@
   "description": "A MU-Plugin to load requirements for JCORE projects",
   "version": "1.0.0",
   "type": "wordpress-muplugin",
-  "license": "GPLv3",
+  "license": "GPL-3.0-or-later",
   "authors": [
     {
       "name": "JCO Digtial Oy",
