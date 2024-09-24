@@ -1,0 +1,25 @@
+{
+  "name": "jcore/module-loader",
+  "description": "A MU-Plugin to load requirements for JCORE projects",
+  "version": "1.0.0",
+  "type": "wordpress-muplugin",
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "JCO Digtial Oy",
+      "email": "support@jco.fi"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "squizlabs/php_codesniffer": "^3.7",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+    "wp-coding-standards/wpcs": "^3.0.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
